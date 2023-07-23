@@ -5,4 +5,5 @@ export const store = configureStore({
     reducer: {
         SBH_Bank: bankReducer
     },
+    devTools: false
 })
